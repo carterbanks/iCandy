@@ -11,7 +11,7 @@ var bmi = {
   },
   update: function(id, cb) {
     var condition = "id=" + id;
-    orm.update("user", {
+    orm.update("bmi", {
       devoured: true
     }, condition, cb);
   }
