@@ -1,0 +1,31 @@
+{
+  "name": "icandy",
+  "version": "1.0.0",
+  "description": "A site to log food and determine cheat food to eat",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esandoval10/foodLog.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Team iCandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esandoval10/foodLog/issues"
+  },
+  "homepage": "https://github.com/esandoval10/foodLog#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  }
+}
