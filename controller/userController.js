@@ -12,7 +12,7 @@ router.get("/user", function(req, res) {
   // express callback response 
   user.all(function(userData) {
     // wrapper for orm.js that using MySQL query callback will return user_data, render to index with handlebar
-    res.render("index", { user_data: userData });
+    res.render("index", { user: userData });
   });
 });
 

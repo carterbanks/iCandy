@@ -12,7 +12,7 @@ router.get("/bmi", function(req, res) {
   // express callback response 
   user.all(function(bmiData) {
     // wrapper for orm.js that using MySQL query callback will return user_data, render to index with handlebar
-    res.render("index", { bmi_data: bmiData });
+    res.render("index", { bmi: bmiData });
   });
 });
 
