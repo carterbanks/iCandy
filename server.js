@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 // // Set Handlebars.
 var ejs = require("ejs");
 
-app.engine("handlebars", ejs.renderFile);
+app.engine("html", ejs.renderFile);
 app.set("view engine", "html");
 
 // Import routes and give the server access to them.
